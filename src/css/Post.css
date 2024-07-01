@@ -1,0 +1,31 @@
+.PostContainer{
+    height: 500px;
+    width: 700px;
+    margin: 0 auto;
+}
+.PostBox{
+    margin-top: 20px;
+}
+.PostUser{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+.PostBtnBox button{
+    padding: 5px 15px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    background-color: #000;
+    color: #f1f1f1;
+    transition: all 0.5s;
+}
+.PostBtnBox button:hover{
+    background-color: #f1f1f1;
+    color: #000;
+    cursor: pointer;
+}
+@media all and (max-width:480px) {
+    .PostContainer{
+        width: 370px;
+    }
+  }

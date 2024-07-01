@@ -1,0 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+
+  .text-animation span{
+    border-right: 4px solid  #c8a755;
+  }
+  .text-animation h2{
+    color:  #c8a755;
+    /* padding-bottom: 120px; */
+  }

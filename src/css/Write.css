@@ -1,0 +1,108 @@
+.WriteDiv{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 990px;
+    margin:0 auto;
+}
+.UserDiv{
+    width: 990px;
+    display: flex;
+    align-items: center;
+    text-align: left; /* 텍스트 왼쪽 정렬 */
+    padding: 10px; /* 내부 패딩 추가 */
+    
+    span {
+      margin-left: 10px; /* 아이콘과 텍스트 간의 간격 조정 */
+    }
+}
+.TitleInput{
+    font-size: 1.2rem;
+    font-weight: bold;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    width: 950px;
+    transition: border-color 0.3s;
+    &:focus {
+      border-color: #4CAF50;
+    }
+}
+.QuillDiv{
+    .ql-editor {
+        min-height: 320px;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 1rem;
+        color: #333;
+        background-color: #fff;
+      }
+      .ql-toolbar {
+        border: none;
+        border-radius: 5px;
+        background-color: #f3f3f3;
+      }
+      .ql-toolbar button:hover {
+        background-color: #ddd;
+      }
+}
+
+.WrteBtnBox{
+    margin-left: 740px;
+    text-align: end;
+}
+.WrteBtnBox button{
+    padding: 5px 15px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    background-color: #000;
+    color: #f1f1f1;
+    transition: all 0.5s;
+}
+.WrteBtnBox button:hover{
+    background-color: #f1f1f1;
+    color: #000;
+    cursor: pointer;
+}
+@media all and (max-width:480px) {
+    .WriteDiv {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 370px;
+        margin: 0 auto;
+      }
+    
+      .UserDiv {
+        width: 370px;   
+        padding: 5px; /* 내부 패딩 감소 */
+        justify-content: space-between;
+        span {
+          margin-left: 0; /* 아이콘과 텍스트 간의 간격 제거 */
+          margin-top: 5px; /* 위쪽에 간격 추가 */
+        }
+      }
+      .WrteBtnBox{
+        margin: 0;
+      }
+      .userIcon{
+        display: none;
+      }
+      .TitleInput {
+        font-size: 1rem;
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+    
+      .QuillDiv .ql-editor {
+        min-height: 200px;
+        font-size: 12px;
+        padding: 0.5rem;
+      }
+      .QuillDiv .ql-toolbar {
+        padding: 0;
+      }
+   }
+ 

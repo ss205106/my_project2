@@ -1,0 +1,71 @@
+#CommunityBody{
+    width: 600px;
+    height: 250px;
+    margin: 0 auto;
+}
+.CommunitContent{
+    display: flex;
+    font-size: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    border-top: 1px dotted #ccc ;
+
+}
+.CommunitContent a {
+    text-decoration: none;
+    color: black;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    color: black;
+    padding: 4px 8px;
+    margin: 0 2px;
+    border: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.pagination button.active {
+    background-color: #000;
+    color: white;
+}
+
+.pagination button:hover:not(.active) {
+    background-color: #ddd;
+
+}
+.WrteBtnDiv{
+    margin: 0 auto;
+    width: 600px;
+    text-align: end;
+}
+.WrteBtnDiv button{
+    padding: 5px 15px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    background-color: #000;
+    color: #f1f1f1;
+    transition: all 0.5s;
+}
+.WrteBtnDiv button:hover{
+    background-color: #f1f1f1;
+    color: #000;
+    cursor: pointer;
+}
+@media all and (max-width:480px) {
+    #CommunityBody{
+        width: 370px;
+    }
+    .WrteBtnDiv{
+        margin: 0 auto;
+        width: 370px;
+        text-align: end;
+    }
+   }
+ 

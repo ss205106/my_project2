@@ -1,0 +1,19 @@
+.CarouselDiv{
+  margin-bottom:30px;
+ background-color: white;
+}
+.SlideBox{
+  width:810px;
+  margin:0px auto;
+  overflow: hidden;
+  height: 250px;
+}
+@media screen and (max-width: 480px) {
+
+    .CarouselDiv {
+       /* display: none; */
+    }
+   .SlideBox{
+    width: 370px;
+   }
+      }

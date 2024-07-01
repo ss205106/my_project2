@@ -1,0 +1,16 @@
+{
+    "post": [
+        {"id": 1, "title": "공지", "content": "공지사항","username":"관리자","date":"2024-06-04"},
+        {"id": 2, "title": "공지", "content": "공지사항","username":"관리자","date":"2024-06-04"},
+        {"id": 3, "title": "게시글", "content": "게시글내용","username":"작성자1","date":"2024-06-04"},
+        {"id": 4, "title": "게시글", "content": "게시글내용","username":"작성자2","date":"2024-06-04"},
+        {"id": 5, "title": "게시글", "content": "게시글내용","username":"작성자3","date":"2024-06-04"},
+        {"id": 6, "title": "게시글", "content": "게시글내용","username":"작성자4","date":"2024-06-04"},
+        {"id": 7, "title": "게시글", "content": "게시글내용","username":"작성자5","date":"2024-06-04"},
+        {"id": 8, "title": "게시글", "content": "게시글내용","username":"작성자6","date":"2024-06-04"},
+        {"id": 9, "title": "게시글", "content": "게시글내용","username":"작성자7","date":"2024-06-04"},
+        {"id": 10, "title": "게시글", "content": "게시글내용","username":"작성자8","date":"2024-06-04"},
+        {"id": 11, "title": "게시글", "content": "게시글내용","username":"작성자9","date":"2024-06-04"},
+        {"id": 12, "title": "게시글", "content": "게시글내용","username":"작성자10","date":"2024-06-04"}
+    ]
+}

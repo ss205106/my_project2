@@ -1,0 +1,150 @@
+#paymentBody{
+    background-color: #e5e7eb;
+    /* height: 600px; */
+}
+#paymentContainer{
+    width: 700px;
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+}
+#content1{
+    width: 400px;
+    font-size: 12px;
+}
+
+#box1{ 
+    padding: 24px;
+    margin-bottom: 16px;
+    /* border: 1px solid #000; */
+    background-color: white;
+    text-align: start;
+}
+#box1Content{
+    display: flex;
+    border:1px solid rgba(33, 33, 33, 0.15);
+}
+#box1Content div{
+   width: 100%;
+}
+
+#delivery{
+    background-color: #e5e7eb;
+    text-align: center;
+    border:1px solid rgba(33, 33, 33, 0.15);
+}
+img{
+        width: 100px;
+        height: 100px;
+}
+
+#box2{
+    padding: 24px;
+    margin-bottom: 16px;
+    background-color: white;
+    text-align: start;
+}
+
+#box3{
+    padding: 24px;
+    margin-bottom: 16px;
+    background-color: white;
+    text-align: start;
+}
+
+
+#box4{
+    padding: 24px;
+    margin-bottom: 16px;
+    background-color: white;
+    text-align: start;
+}
+#content2{
+    /* width: 300px; */
+    margin-left: 15px;
+    width: 270px;
+}
+#t1{
+    width: 270px;
+    background-color: white;
+    padding: 14px;
+    margin-bottom: 16px;
+    text-align: left;
+    font-size: 12px;
+}
+#t2{
+    background-color: white;
+    padding: 14px;
+    margin-bottom: 16px;
+}
+#paymentContent{
+    display: flex;
+    justify-content: space-between;
+}
+.payment-methods{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: 12px;
+}
+.payment-methods div{
+    text-align: start;
+}
+#t3{
+    background-color: white;
+   
+}
+#t3Content{
+    padding: 14px;
+    /* margin-bottom: 16px; */
+}
+#t3 div{
+  font-size: 14px;
+}
+#paymentBtn{
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #000;
+    padding:15px 30px;
+    color: #fff;
+    width: 100%;
+    transition: all 0.5s;
+}
+#paymentBtn:hover{
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+.meno{
+    width: 100%;
+    padding:5px;
+}
+.open{
+    display: block;
+    width: 96%;
+    padding:5px;
+}
+.close{
+    display: none;
+}
+@media all and (max-width:480px) {
+   #paymentContainer{
+    width: 370px;
+    flex-direction: column;
+    margin: 0 auto;
+   }
+   #content1{
+    width: 370px;
+   }
+   #box4 input{
+    width: 320px;
+   }
+   #content2{
+    width: 360px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+   }
+   #t1{
+    width: 360px;
+   }
+  }

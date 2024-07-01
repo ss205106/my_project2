@@ -1,0 +1,17 @@
+#footer {
+    background-color: #ccc;
+    padding: 20px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
