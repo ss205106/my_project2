@@ -2,14 +2,14 @@ import React from 'react';
 import Header from '../common/Header';
 import Footer from '../common/Footer';
 import Write from '../component/write/Write';
-const WritePage = () => {
+const ReviewWritePage = () => {
     return (
         <div>
             <Header/>
-            <Write />
+            <Write page="Review"/>
             <Footer/>
         </div>
     );
 };
 
-export default WritePage;
+export default ReviewWritePage;

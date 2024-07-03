@@ -12,22 +12,25 @@ import PostPage from './page/PostPage';
 import PaymentPage from './page/PaymentPage';
 import WritePage from './page/WritePage';
 import MyPage from './page/MyPage';
-import PurchaseReview from './page/PurchaseReview';
+import ReviewWritePage from './page/ReviewWritePage';
 function App() {
   return (
     <div className="App">
-        <Routes>
+        <Routes>.
            <Route path='/' element={<MainPage/>}/>
-          <Route path='/store' element={<StorePage/>}/>
+         
           <Route path='/login' element={<LoginPage/>}/>
           <Route path='/register' element={<RegisterPage/>}/>
+
+          <Route path='/store' element={<StorePage/>}/>
           <Route path='/ItemPage' element={<ItemPage/>}/>
           <Route path='/Community' element={<CommunityPage/>}/>
           <Route path='/post' element={<PostPage/>}/>
           <Route path='/Payment' element={<PaymentPage/>}/>
           <Route path='/write' element={<WritePage/>}/>
           <Route path='/mypage' element={<MyPage/>}/>
-          <Route path='/Review' element={<PurchaseReview/>}/>
+
+          <Route path='/ReviewWrite' element={<ReviewWritePage/>}/>
         </Routes>
       </div>
   );

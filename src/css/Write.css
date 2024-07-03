@@ -52,10 +52,13 @@
 
 .WrteBtnBox{
     margin-left: 740px;
+    width: 350px;
     text-align: end;
+    display: flex;
 }
 .WrteBtnBox button{
     padding: 5px 15px;
+    /* height: 25px; */
     border: 1px solid #000;
     border-radius: 15px;
     background-color: #000;
@@ -66,6 +69,10 @@
     background-color: #f1f1f1;
     color: #000;
     cursor: pointer;
+}
+.ReviewItemBox div{
+  margin-top: 25px;
+  
 }
 @media all and (max-width:480px) {
     .WriteDiv {
@@ -86,6 +93,12 @@
       }
       .WrteBtnBox{
         margin: 0;
+        width: 150px;
+        
+      }
+      .WrteBtnBox button{
+        font-size: 10px;
+        
       }
       .userIcon{
         display: none;

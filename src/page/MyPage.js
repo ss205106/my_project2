@@ -6,9 +6,10 @@ import Footer from '../common/Footer';
 import { FaRegUserCircle } from "react-icons/fa";
 import { Link, useNavigate } from 'react-router-dom';
 import { Detail_item } from '../modules/sotreRedux';
+import { ReviewClick_item } from '../modules/sotreRedux';
 const MyPage = () => {
     const {user,ShoppingBasket,paymentItems} = useSelector(state=>({
-        user:state.user.user,
+        user:state.user.user,   
         ShoppingBasket:state.sotreRedux.ShoppingBasket,
         paymentItems:state.sotreRedux.paymentItems
     }))
@@ -32,6 +33,11 @@ const MyPage = () => {
         
         navigate("/Payment")
 
+    }
+
+    const ReviewBtnClick = (item) => {
+        dispatch(ReviewClick_item(item))
+        navigate("/ReviewWrite")
     }
     return (
         <div>
@@ -82,7 +88,7 @@ const MyPage = () => {
                                     </div>
                                 </div>
                                 <div className='myPageBtn'>
-                                        <button style={{marginTop:"15px"}} >구매평작성</button>
+                                        <button style={{marginTop:"15px"}} onClick={()=>ReviewBtnClick(item.payItem[0])}>구매평작성</button>
                                         <button>배송조회</button>
                                 </div>
                             </div>

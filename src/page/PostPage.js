@@ -36,7 +36,7 @@ const PostPage = () => {
             <Header/>
             {DetailPost ?
                     <div className='PostContainer'>
-                        <h4>커뮤니티</h4>
+                        <h4>커뮤니티 & 구매후기</h4>
                         <div className='PostBox'>
                             <div>{DetailPost.title}</div>
                             <div className='PostUser'>
